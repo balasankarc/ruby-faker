@@ -1,0 +1,165 @@
+--- !ruby/object:Gem::Specification
+name: faker
+version: !ruby/object:Gem::Version
+  version: 1.4.3
+platform: ruby
+authors:
+- Benjamin Curtis
+autorequire: 
+bindir: bin
+cert_chain: []
+date: 2014-08-15 00:00:00.000000000 Z
+dependencies:
+- !ruby/object:Gem::Dependency
+  name: i18n
+  requirement: !ruby/object:Gem::Requirement
+    requirements:
+    - - "~>"
+      - !ruby/object:Gem::Version
+        version: '0.5'
+  type: :runtime
+  prerelease: false
+  version_requirements: !ruby/object:Gem::Requirement
+    requirements:
+    - - "~>"
+      - !ruby/object:Gem::Version
+        version: '0.5'
+description: 'Faker, a port of Data::Faker from Perl, is used to easily generate fake
+  data: names, addresses, phone numbers, etc.'
+email:
+- benjamin.curtis@gmail.com
+executables: []
+extensions: []
+extra_rdoc_files: []
+files:
+- History.txt
+- License.txt
+- README.md
+- lib/extensions/array.rb
+- lib/extensions/symbol.rb
+- lib/faker.rb
+- lib/faker/address.rb
+- lib/faker/app.rb
+- lib/faker/avatar.rb
+- lib/faker/bitcoin.rb
+- lib/faker/business.rb
+- lib/faker/code.rb
+- lib/faker/commerce.rb
+- lib/faker/company.rb
+- lib/faker/date.rb
+- lib/faker/finance.rb
+- lib/faker/hacker.rb
+- lib/faker/internet.rb
+- lib/faker/lorem.rb
+- lib/faker/name.rb
+- lib/faker/number.rb
+- lib/faker/phone_number.rb
+- lib/faker/team.rb
+- lib/faker/time.rb
+- lib/faker/version.rb
+- lib/locales/de-AT.yml
+- lib/locales/de-CH.yml
+- lib/locales/de.yml
+- lib/locales/en-AU.yml
+- lib/locales/en-BORK.yml
+- lib/locales/en-CA.yml
+- lib/locales/en-GB.yml
+- lib/locales/en-IND.yml
+- lib/locales/en-NEP.yml
+- lib/locales/en-US.yml
+- lib/locales/en-au-ocker.yml
+- lib/locales/en.yml
+- lib/locales/es.yml
+- lib/locales/fa.yml
+- lib/locales/fr.yml
+- lib/locales/it.yml
+- lib/locales/ja.yml
+- lib/locales/ko.yml
+- lib/locales/nb-NO.yml
+- lib/locales/nl.yml
+- lib/locales/pl.yml
+- lib/locales/pt-BR.yml
+- lib/locales/ru.yml
+- lib/locales/sk.yml
+- lib/locales/sv.yml
+- lib/locales/vi.yml
+- lib/locales/zh-CN.yml
+- test/test_array_sample_method_compat.rb
+- test/test_avatar.rb
+- test/test_en_au_ocker_locale.rb
+- test/test_en_locale.rb
+- test/test_en_us_locale.rb
+- test/test_es_locale.rb
+- test/test_faker.rb
+- test/test_faker_app.rb
+- test/test_faker_bitcoin.rb
+- test/test_faker_business.rb
+- test/test_faker_city.rb
+- test/test_faker_code.rb
+- test/test_faker_commerce.rb
+- test/test_faker_company.rb
+- test/test_faker_date.rb
+- test/test_faker_hacker_talk.rb
+- test/test_faker_internet.rb
+- test/test_faker_lorem.rb
+- test/test_faker_name.rb
+- test/test_faker_number.rb
+- test/test_faker_street.rb
+- test/test_faker_team.rb
+- test/test_faker_time.rb
+- test/test_flexible.rb
+- test/test_helper.rb
+- test/test_locale.rb
+- test/test_pl_locale.rb
+homepage: https://github.com/stympy/faker
+licenses:
+- MIT
+metadata: {}
+post_install_message: 
+rdoc_options: []
+require_paths:
+- lib
+required_ruby_version: !ruby/object:Gem::Requirement
+  requirements:
+  - - ">="
+    - !ruby/object:Gem::Version
+      version: '0'
+required_rubygems_version: !ruby/object:Gem::Requirement
+  requirements:
+  - - ">="
+    - !ruby/object:Gem::Version
+      version: '0'
+requirements: []
+rubyforge_project: faker
+rubygems_version: 2.2.0
+signing_key: 
+specification_version: 4
+summary: Easily generate fake data
+test_files:
+- test/test_array_sample_method_compat.rb
+- test/test_avatar.rb
+- test/test_en_au_ocker_locale.rb
+- test/test_en_locale.rb
+- test/test_en_us_locale.rb
+- test/test_es_locale.rb
+- test/test_faker.rb
+- test/test_faker_app.rb
+- test/test_faker_bitcoin.rb
+- test/test_faker_business.rb
+- test/test_faker_city.rb
+- test/test_faker_code.rb
+- test/test_faker_commerce.rb
+- test/test_faker_company.rb
+- test/test_faker_date.rb
+- test/test_faker_hacker_talk.rb
+- test/test_faker_internet.rb
+- test/test_faker_lorem.rb
+- test/test_faker_name.rb
+- test/test_faker_number.rb
+- test/test_faker_street.rb
+- test/test_faker_team.rb
+- test/test_faker_time.rb
+- test/test_flexible.rb
+- test/test_helper.rb
+- test/test_locale.rb
+- test/test_pl_locale.rb
