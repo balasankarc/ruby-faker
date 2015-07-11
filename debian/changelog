@@ -1,5 +1,5 @@
-ruby-faker (1.4.3-1) UNRELEASED; urgency=medium
+ruby-faker (1.4.3-1) unstable; urgency=medium
 
-  * Initial release (Closes: #748374)
+  * Initial release (Closes: #792112)
 
- -- Balasankar C <balasankarc@autistici.org>  Sat, 11 Jul 2015 17:02:13 +0530
+ -- Balasankar C <balasankarc@autistici.org>  Wed, 08 Jul 2015 17:54:47 +0530

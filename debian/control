@@ -20,5 +20,9 @@ Depends: ruby | ruby-interpreter,
          ruby-i18n (>= 0.5),
          ${misc:Depends},
          ${shlibs:Depends}
-Description: Easily generate fake data
- Faker, a port of Data::Faker from Perl, is used to easily generate fake data: names, addresses, phone numbers, etc.
+Description: easily generate fake data
+ This gem provides a port of Data::Faker from Perl, which can be used to easily 
+ generate fake data: names, addresses, phone numbers, etc. It comes in very 
+ handy for taking screenshots, having real-looking test data, and having your 
+ database populated with more than one or two records while you're doing 
+ development.
