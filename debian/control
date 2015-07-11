@@ -1,0 +1,24 @@
+Source: ruby-faker
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Balasankar C <balasankarc@autistici.org>
+Build-Depends: debhelper (>= 7.0.50~),
+               gem2deb,
+               ruby-i18n (>= 0.5)
+Standards-Version: 3.9.6
+Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/ruby-faker.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-ruby-extras/ruby-faker.git
+Homepage: https://github.com/stympy/faker
+Testsuite: autopkgtest-pkg-ruby
+XS-Ruby-Versions: all
+
+Package: ruby-faker
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ruby | ruby-interpreter,
+         ruby-i18n (>= 0.5),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Easily generate fake data
+ Faker, a port of Data::Faker from Perl, is used to easily generate fake data: names, addresses, phone numbers, etc.
